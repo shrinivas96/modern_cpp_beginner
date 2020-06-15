@@ -1,5 +1,9 @@
 # this cmakelists file is hierarchically below the cmakelists in project folder
 
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
 # after separating declare+define we add the cpp file
 # into its own library
 add_library(hela hello.cpp)
