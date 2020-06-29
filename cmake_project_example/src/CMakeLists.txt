@@ -1,4 +1,4 @@
-# this cmakelists file is hierarchically below the cmakelists in project folder
+# this cmakelists file is hierarchically below the top CMakeLists in project folder.
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
